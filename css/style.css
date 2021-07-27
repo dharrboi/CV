@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+  margin: 0 0 0 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.top{
+  background-color: #87BFFF;
+}
+
+.dp{
+  border-radius: 50%;
+  width: 250px;
+}
+
+#vit{
+  text-decoration: none;
+  color:rgb(149, 43, 43);
+}
+
+#vit:hover{
+  text-decoration:underline;
+  color:rgb(187, 30, 20);
+}
+
+.tbl{
+  margin: 0 auto;
+}
+
+hr{
+  width: 20%;
+  /* height=0 */
+  border-style: dotted none none none;
+  border-top-width: 9px;
+  color: black;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  opacity: 0.3
+}
+
+.middle{
+  background-color: rgb(238, 234, 251);
+}
+
+.fix{
+  position: sticky;
+  top: 0;
+  background: linear-gradient(white,rgb(207, 219, 255));
+}
+
+.github{
+  position: relative;
+  left:60px;
+}
+
+.stack{
+  position: relative;
+  left:120px;
+}
+
+.ig{
+  position: absolute;
+  right:60px;
+}
+
+.spotify{
+  position: absolute;
+  right:180px;
+}
+
+.stickpic{
+  margin: 5px 0;
+}
